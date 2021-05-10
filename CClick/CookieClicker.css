@@ -1,0 +1,84 @@
+body{
+    background-color: lightblue;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    width:400px;
+    position: fixed;
+    right: 0;
+    background-color:darkgrey;
+    font-size: 20px;
+    margin-top: 8%;
+    border: 2px solid black ;
+    margin-right: 1%;
+}
+.cookie{
+    display: flex;
+    align-self: left;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 40%;
+    border-radius: 5px;
+    left: 0;
+}
+.counter{
+    position: fixed;
+    right: 0;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 376px;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: rgb(227, 160, 66);
+    margin-top: 2px;
+    margin-right: 1%;
+}
+.button1{
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color:white;
+}
+.button2{
+    background-color:darkgrey;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+}
+.log{
+    width: 400px;
+    position: fixed;
+    left: 0;
+    margin-top: 17%;
+    font-size: 20px;
+    margin-left: 1%;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+.upgrades{
+    width:400px;
+    position: fixed;
+    left: 0;
+    background-color:darkgrey;
+    font-size: 20px;
+    margin-top: 8%;
+    border: 2px solid black ;
+    margin-right: 1%;
+    table-layout: fixed;
+}
+.clicks{
+    position: fixed;
+    left: 0;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 376px;
+    border-radius: 2px;
+    padding: 10px;
+    background-color:lightcoral;
+    margin-top: 2px;
+    margin-right: 1%;
+}

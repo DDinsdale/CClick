@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookieClicker</title>
+    <link rel="stylesheet" type="text/css" href="CookieClicker.css">
+</head>
+<style>
+</style>
+
+<body>
+    <h1>Cookie Clicker</h1>
+    <div class="cookie"> 
+        <button type="button" class = "button1" onclick="myFunction()"><img src="Cookie.gif"></button>
+    </div>    
+    <table class="table">
+        <tr>
+            <th>Upgrades</th>
+            <th>Cost</th>
+        </tr>
+        <tr>
+            <td><img src="DoubleClick.png" style="width:20px;height:20px"><button class = "button2" onclick="dcFunction()">Double Click</button></td>
+            <td>10 Cookies</td>
+        </tr> 
+        <tr>
+            <td><img src="Grandma.png" style="width:20px;height:20px"><button class = "button2" onclick="grandmaFunction()">Grandma</button></td>
+            <td>50 Cookies</td>
+        </tr>
+        <tr>
+            <td><img src="QuadClick.png" style="width:20px;height:20px"><button class = "button2" onclick="qcFunction()">Quad Click</button></td>
+            <td>100 Cookies</td>
+        </tr>
+         <tr>
+            <td><img src="BetterGrandma.jpg" style="width:20px;height:20px"><button class = "button2" onclick="bGrandmaFunction()">Better Grandmas</button></td>
+            <td>200 Cookies</td>
+        </tr>
+        <tr>
+            <td><img src="Factory.png" style="width:20px;height:20px"><button class = "button2" onclick="factoryFunction()">Factory</button></td>
+            <td>500 Cookies</td>
+        </tr>
+    </table>
+    <div class="counter">
+        <h>Total Cookies:</h>
+        <p id="cookie">0</p>
+    </div>
+    <div class = "clicks">
+        <h>Total Clicks:</h>
+        <p id = "clicks">0</p>   
+    </div>
+    <div class="log">
+        <h>Log:</h>
+        <ul id="log">
+        </ul>
+    </div>
+    <table class = "upgrades">
+        <tr>
+            <th>Upgrade</th>
+            <th>Total</th>
+            
+        </tr>
+        <tr>
+            <th>Grandmas:</th>
+            <th><p id = "gnum">0</p></th>
+        </tr>
+        <tr>
+            <th>Factories:</th>
+            <th><p id = "fnum">0</p></th>
+        </tr>
+    </table>
+    
+    <script src="CookieClicker.js"></script>
+</body>
+</html>
+
+
+
